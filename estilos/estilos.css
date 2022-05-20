@@ -84,6 +84,17 @@ body,html{
     
 }
 
+#idOjoVerde{
+    position: relative;
+    width: 21.69px;
+    height: 16px;  
+    left: 381.16px;
+    top: 214px;
+    bottom: 472px;
+}
+
+
+
 #idInputPassword{
     position: absolute;
 
@@ -132,4 +143,42 @@ body,html{
 
     color: #FFFFFF;
 
+}
+
+#idForgotPass{
+    position: absolute;
+
+    width: 120.35px;
+    height: 19px;
+    
+    top: 258px;
+    right: 49.65px;
+
+    margin-top: 3px;
+    margin-bottom: 0px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 19px;
+
+    display: absolute;
+    align-items: center;
+    text-align: right;
+
+    color: #5FE19B;
+}
+
+#idBoton{
+    position: absolute;
+
+    width: 362px;
+    height: 47px;
+
+    top: 302px;
+    left: 50px;
+
+    background: #4CC986;
+    border-radius: 6px;
 }
