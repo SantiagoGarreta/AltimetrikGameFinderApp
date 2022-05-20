@@ -1,6 +1,7 @@
 body,html{
     background: url(https://images.unsplash.com/photo-1552820728-8b83bb6b773f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870) no-repeat center fixed;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .claseLogo{
@@ -14,16 +15,87 @@ body,html{
 .claseLoginCard{
 
     background-color: #303030;
-
+    position: absolute;
     width: 462px;
     height: 702px;
-
-    margin-top: 178px;
     margin-left: 932px;
-
-    border-radius: 12px;
+    margin-top: 178px;
     
-    fill: Solid;
     mix-blend-mode: overlay;
     backdrop-filter: blur(10px);
+
+    border-radius: 12px;
+}
+
+
+
+#idTituloCard{
+    
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 362px;
+    height: 27px;
+
+    top: 40px;
+    left: 50px;
+    
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    text-align: center;
+}
+
+#idSubTituloCard{
+    
+    position: absolute;
+    width: 362px;
+    height: 28px;
+
+    left: 50px;
+    top: 75px;
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    
+    text-align: center;
+
+    color: #FFFFFF;
+    
+}
+
+#idInputMail{
+    position: absolute;
+
+    width: 362px;
+    height: 47px;
+
+    top: 135px;
+    left: 50px;
+
+    border-radius: 4px;
+
+    background: #FFFFFF;
+    
+}
+
+#idInputPassword{
+    position: absolute;
+
+    width: 362px;
+    height: 47px;
+
+    top: 198px;
+    left: 50px;
+
+    border-radius: 4px;
+
+    background: #FFFFFF;
+    
 }
