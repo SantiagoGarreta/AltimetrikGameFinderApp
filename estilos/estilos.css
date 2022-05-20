@@ -1,0 +1,29 @@
+body,html{
+    background: url(https://images.unsplash.com/photo-1552820728-8b83bb6b773f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870) no-repeat center fixed;
+    background-size: cover;
+}
+
+.claseLogo{
+    width: 293.54px;
+    height: 37.46px;
+    margin-top: 14.27px;
+    margin-left: 14.23px;
+    
+}
+
+.claseLoginCard{
+
+    background-color: #303030;
+
+    width: 462px;
+    height: 702px;
+
+    margin-top: 178px;
+    margin-left: 932px;
+
+    border-radius: 12px;
+    
+    fill: Solid;
+    mix-blend-mode: overlay;
+    backdrop-filter: blur(10px);
+}
