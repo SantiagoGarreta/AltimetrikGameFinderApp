@@ -1,0 +1,394 @@
+body,html{
+    background: url(https://images.unsplash.com/photo-1552820728-8b83bb6b773f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870) no-repeat center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Exo';
+    font-style: normal;
+}
+
+.claseLogo{
+    width: 293.54px;
+    height: 37.46px;
+    margin-top: 14.27px;
+    margin-left: 14.23px;
+}
+
+.backCard{
+    background-color: #303030;
+    position: absolute;
+    width: 462px;
+    height: 702px;
+    margin-left: 932px;
+    margin-top: 178px;
+    
+    mix-blend-mode: overlay;
+    backdrop-filter: blur(10px);
+
+    border-radius: 12px;
+}
+
+
+.claseLoginCard{
+
+    position: absolute;
+    width: 462px;
+    height: 702px;
+    margin-left: 932px;
+    margin-top: 178px;
+
+    border-radius: 12px;
+}
+
+
+#idTituloCard{
+    
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 362px;
+    height: 27px;
+
+    top: 40px;
+    left: 50px;
+    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    text-align: center;
+}
+
+
+#idSubTituloCard{
+
+    position: absolute;
+    width: 362px;
+    height: 28px;
+
+    left: 50px;
+    top: 75px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.classMail{
+    
+    position: absolute;
+    width: 362px;
+    height: 47px;
+    top: 135px;
+    left: 50px;
+}
+
+#idInputMail{
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+#idOjoVerde{
+
+    position: relative;
+    width: 21.69px;
+    height: 16px;  
+    left: 331.16px;
+    top: 16px;
+}
+
+
+.classPassword{
+
+    position: absolute;
+    width: 362px;
+    height: 47px;
+    left: 50px;
+    top: 198px;
+}
+
+#idInputPassword{
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    
+}
+
+.classChechBox{
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 55px;
+    top: 262px;
+    
+}
+
+#idCBox{
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+
+}
+
+#idRememberMe{
+
+    position: absolute;
+    height: 19px;
+    
+    top: 259px;
+    left: 86px;
+
+    margin-top: 3px;
+    margin-bottom: auto;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+#idForgotPass{
+
+    position: absolute;
+
+    width: 120.35px;
+    height: 19px;
+    
+    top: 258px;
+    right: 49.65px;
+
+    margin-top: 3px;
+    margin-bottom: 0px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 19px;
+
+    display: absolute;
+    align-items: center;
+    text-align: right;
+
+    color: #3c8c66;
+}
+
+.classButton{
+
+    position: absolute;
+    width: 362px;
+    height: 47px;
+    left: 50px;
+    top: 312px;
+
+}
+
+#idBoton{
+  
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #4CC986;
+    border-radius: 6px;
+
+}
+
+#idNotRegText{
+    /*Not registered yet?*/
+
+    position: absolute;
+    height: 19px;
+    left: 120px;
+    top: 381px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-align: right;
+
+    color: #808082;
+}
+
+#idRegNowText{
+    /*Register now text*/
+
+    position: absolute;
+    height: 19px;
+    left: 253.84px;
+    top: 381px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-align: right;
+
+    color: #3c8c66;
+}
+
+#idLine1{
+
+    position: absolute;
+
+    left: 264.56px;
+    top: 434.37px;
+    
+
+    width: 147.44px;
+    height: 2.1px;
+
+    border: 1px solid #FFFFFF;
+}
+
+#idLine2{
+
+    position: absolute;
+
+    left: 50px;
+    top: 434.37px;
+    
+
+    width: 147.44px;
+    height: 2.1px;
+
+    border: 1px solid #FFFFFF;
+}
+
+
+.classButtonFB{
+    box-sizing: border-box;
+    position: absolute;
+    background-color: transparent;
+
+    width: 362px;
+    height: 47px;
+
+    left: 50px;
+    top: 473px;
+
+    color: white;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: absolute;
+    align-items: center;
+    text-align: center;
+    
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+#idFbLogo{
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 111px;
+    top: 485px;
+}
+
+.classButtonTW{
+    box-sizing: border-box;
+    position: absolute;
+    background-color: transparent;
+
+    width: 362px;
+    height: 47px;
+
+    left: 50px;
+    top: 545px;
+
+    color: white;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: absolute;
+    align-items: center;
+    text-align: center;
+    
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+#idTwLogo{
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 111px;
+    top: 531px;
+}
+
+.classButtonGG{
+    box-sizing: border-box;
+    position: absolute;
+    background-color: transparent;
+
+    width: 362px;
+    height: 47px;
+
+    left: 50px;
+    top: 616px;
+
+    color: white;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: absolute;
+    align-items: center;
+    text-align: center;
+    
+    
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+#idGgLogo{
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 111px;
+    top: 580px;
+}

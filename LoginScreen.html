@@ -5,33 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="Styles/Styles.css">
 
-    <title></title>
+    <title>Log In | Game Finder</title>
 </head>
 <body>
-    <img class="claseLogo" src="imagenes\LogoGameFinder.png" alt="Logo Game Finder">
+    <img class="claseLogo" src="Images/LogoGameFinder.png" alt="Logo Game Finder">
 
+    <div class="backCard">
+
+    </div>
+    
     <div class="claseLoginCard">
 
         <p id="idTituloCard">Welcome! Log in or register</p>
         <p id="idSubTituloCard">Log in to find the games you are looking for!</p>
 
-        <input type="email" id="idInputMail" placeholder="Email">
+        <div class="classMail">
+            <input type="email" id="idInputMail" placeholder="   Email">
+        </div>
 
-        <div class="input-password">
-        <input type="password" id="idInputPassword" placeholder="Password">
-        <img src="imagenes\OjoVerde.png" alt="OjoVerde" id="idOjoVerde">    
+        <div class="classPassword">
+            <div class="input-password">
+                <input type="password" id="idInputPassword" placeholder="   Password">
+            </div>
+        
+
+        
+            <img src="Images/GreenEye.png" alt="OjoVerde" id="idOjoVerde">    
 
         </div>
 
-        <input type="checkbox" id="idCBox" value="checkbox">
-        
+        <div class="classChechBox">
+            <input type="checkbox" id="idCBox" value="checkbox">
+        </div>
+
         <p id="idRememberMe">Remember me</p>
 
-        <p id="idForgotPass">Forgot password?</p>
+        <a href=""><p id="idForgotPass">Forgot password?</p></a>
 
-        <button id="idBoton">Log in</button>
+        <div class="classButton">
+            <button id="idBoton">Log in</button>
+        </div>
+
+        <p id="idNotRegText">Not registered yet?</p>
+        <a href=""><p id="idRegNowText">Register now</p></a>
+
+        <hr id="idLine1">
+        <hr id="idLine2">
+
+        <div class="classBorderButtonFb">
+        <button class="classButtonFB">
+            <i></i>
+            Login with Facebook
+        </button>
+        <img src="Icons/Facebook.png" alt="IconFb" id="idFbLogo">
+        </div>
+
+        <div class="classBorderButtonTw">
+            <button class="classButtonTW">
+                Login with Twitter
+            </button>
+            <img src="Icons/Twitter.png" alt="IconTw" id="idTwLogo">
+            </div>
+
+            
+        <div class="classBorderButtonGg">
+            <button class="classButtonGG">
+                Login with Google
+            </button>
+            <img src="Icons/Google.png" alt="IconGg" id="idGgLogo">
+            </div>
+        
+
+
     </div>
+
+
 </body>
 </html>
