@@ -1,3 +1,9 @@
+:root{
+    --primary_color: #4CC986;
+    --secondary_color: #3c8c66;
+}
+
+
 body,html{
     background: url(https://images.unsplash.com/photo-1552820728-8b83bb6b773f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870) no-repeat center fixed;
     background-size: cover;
@@ -199,7 +205,7 @@ body,html{
     align-items: center;
     text-align: right;
 
-    color: #3c8c66;
+    color: var(--secondary_color);
 }
 
 .loginCard_button{
@@ -220,7 +226,7 @@ body,html{
     top: 0%;
     bottom: 0%;
 
-    background: #4CC986;
+    background: var(--primary_color);
     border-radius: 6px;
 
 }
@@ -260,7 +266,7 @@ body,html{
 
     text-align: right;
 
-    color: #3c8c66;
+    color: var(--secondary_color);
 }
 
 .loginCard__linea1{
