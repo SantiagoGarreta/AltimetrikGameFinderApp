@@ -5,76 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="Styles/LoginScreenStyles.css">
 
     <title>Log In | Game Finder</title>
 </head>
 <body>
-    <img class="claseLogo" src="Images/LogoGameFinder.png" alt="Logo Game Finder">
+    <img class="logo" src="Images/LogoGameFinder.png" alt="Logo Game Finder">
 
     <div class="backCard">
 
     </div>
     
-    <div class="claseLoginCard">
+    <div class="loginCard">
 
-        <p id="idTituloCard">Welcome! Log in or register</p>
-        <p id="idSubTituloCard">Log in to find the games you are looking for!</p>
+        <p class="loginCard__title">Welcome! Log in or register</p>
+        <p class="loginCard__subtitle">Log in to find the games you are looking for!</p>
 
-        <div class="classMail">
-            <input type="email" id="idInputMail" placeholder="   Email">
+        <div class="loginCard__mail">
+            <input type="email" class="loginCard__mail--position" placeholder="   Email">
         </div>
 
-        <div class="classPassword">
+        <div class="loginCard__password">
             <div class="input-password">
-                <input type="password" id="idInputPassword" placeholder="   Password">
+                <input type="password" class="loginCard__password--position" placeholder="   Password">
             </div>
         
 
         
-            <img src="Images/GreenEye.png" alt="OjoVerde" id="idOjoVerde">    
+            <img src="Images/GreenEye.png" alt="OjoVerde" class="loginCard__password--eye">    
 
         </div>
 
-        <div class="classChechBox">
-            <input type="checkbox" id="idCBox" value="checkbox">
+        <div class="loginCard_chechBox">
+            <input type="checkbox" class="loginCard_chechBox--position" value="checkbox">
         </div>
 
-        <p id="idRememberMe">Remember me</p>
+        <p class="loginCard__rememberMe">Remember me</p>
 
-        <a href=""><p id="idForgotPass">Forgot password?</p></a>
+        <a href=""><p class="loginCard__forgotPass">Forgot password?</p></a>
 
-        <div class="classButton">
-            <button id="idBoton">Log in</button>
+        <div class="loginCard_button">
+            <button class="loginCard_button--position">Log in</button>
         </div>
 
-        <p id="idNotRegText">Not registered yet?</p>
-        <a href=""><p id="idRegNowText">Register now</p></a>
+        <p class="loginCard__notRegist">Not registered yet?</p>
+        <a href=""><p class="loginCard__registerNow">Register now</p></a>
 
-        <hr id="idLine1">
-        <hr id="idLine2">
+        <hr class="loginCard__linea1">
+        <p class="loginCard__or">or</p>
+        <hr class="loginCard__linea2">
 
-        <div class="classBorderButtonFb">
-        <button class="classButtonFB">
+        <div class="loginCard__borderButtonFB">
+        <button class="loginCard__borderButtonFB--style">
             <i></i>
             Login with Facebook
         </button>
-        <img src="Icons/Facebook.png" alt="IconFb" id="idFbLogo">
+        <img src="Icons/Facebook.png" alt="IconFb" class="loginCard__borderButtonFB--logo">
         </div>
 
-        <div class="classBorderButtonTw">
-            <button class="classButtonTW">
+        <div class="loginCard__borderButtonTW">
+            <button class="loginCard__borderButtonTW--style">
                 Login with Twitter
             </button>
-            <img src="Icons/Twitter.png" alt="IconTw" id="idTwLogo">
+            <img src="Icons/Twitter.png" alt="IconTw" class="loginCard__borderButtonTW--logo">
             </div>
 
             
         <div class="classBorderButtonGg">
-            <button class="classButtonGG">
+            <button class="loginCard__borderButtonGG--style">
                 Login with Google
             </button>
-            <img src="Icons/Google.png" alt="IconGg" id="idGgLogo">
+            <img src="Icons/Google.png" alt="IconGg" class="loginCard__borderButtonGG--logo">
             </div>
         
 

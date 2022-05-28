@@ -7,7 +7,7 @@ body,html{
     font-style: normal;
 }
 
-.claseLogo{
+.logo{
     width: 293.54px;
     height: 37.46px;
     margin-top: 14.27px;
@@ -29,7 +29,7 @@ body,html{
 }
 
 
-.claseLoginCard{
+.loginCard{
 
     position: absolute;
     width: 462px;
@@ -41,7 +41,7 @@ body,html{
 }
 
 
-#idTituloCard{
+.loginCard__title{
     
     color: #FFFFFF;
 
@@ -60,7 +60,7 @@ body,html{
 }
 
 
-#idSubTituloCard{
+.loginCard__subtitle{
 
     position: absolute;
     width: 362px;
@@ -79,7 +79,7 @@ body,html{
 
 }
 
-.classMail{
+.loginCard__mail{
     
     position: absolute;
     width: 362px;
@@ -88,7 +88,7 @@ body,html{
     left: 50px;
 }
 
-#idInputMail{
+.loginCard__mail--position{
     
     position: absolute;
     left: 0%;
@@ -100,17 +100,7 @@ body,html{
     border-radius: 4px;
 }
 
-#idOjoVerde{
-
-    position: relative;
-    width: 21.69px;
-    height: 16px;  
-    left: 331.16px;
-    top: 16px;
-}
-
-
-.classPassword{
+.loginCard__password{
 
     position: absolute;
     width: 362px;
@@ -119,7 +109,7 @@ body,html{
     top: 198px;
 }
 
-#idInputPassword{
+.loginCard__password--position{
 
     position: absolute;
     left: 0%;
@@ -132,7 +122,16 @@ body,html{
     
 }
 
-.classChechBox{
+.loginCard__password--eye{
+
+    position: relative;
+    width: 21.69px;
+    height: 16px;  
+    left: 331.16px;
+    top: 16px;
+}
+
+.loginCard_chechBox{
 
     position: absolute;
     width: 20px;
@@ -142,7 +141,7 @@ body,html{
     
 }
 
-#idCBox{
+.loginCard_chechBox--position{
 
     position: absolute;
     left: 0%;
@@ -155,7 +154,7 @@ body,html{
 
 }
 
-#idRememberMe{
+.loginCard__rememberMe{
 
     position: absolute;
     height: 19px;
@@ -177,7 +176,7 @@ body,html{
 
 }
 
-#idForgotPass{
+.loginCard__forgotPass{
 
     position: absolute;
 
@@ -203,7 +202,7 @@ body,html{
     color: #3c8c66;
 }
 
-.classButton{
+.loginCard_button{
 
     position: absolute;
     width: 362px;
@@ -213,7 +212,7 @@ body,html{
 
 }
 
-#idBoton{
+.loginCard_button--position{
   
     position: absolute;
     left: 0%;
@@ -226,7 +225,7 @@ body,html{
 
 }
 
-#idNotRegText{
+.loginCard__notRegist{
     /*Not registered yet?*/
 
     position: absolute;
@@ -245,7 +244,7 @@ body,html{
     color: #808082;
 }
 
-#idRegNowText{
+.loginCard__registerNow{
     /*Register now text*/
 
     position: absolute;
@@ -264,7 +263,7 @@ body,html{
     color: #3c8c66;
 }
 
-#idLine1{
+.loginCard__linea1{
 
     position: absolute;
 
@@ -278,7 +277,25 @@ body,html{
     border: 1px solid #FFFFFF;
 }
 
-#idLine2{
+.loginCard__or{
+    position: absolute;
+    color: grey;
+
+    width: 67.12px;
+    height: 19.71px;
+
+    top: 421px;
+    left: 197.44px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.loginCard__linea2{
 
     position: absolute;
 
@@ -293,7 +310,7 @@ body,html{
 }
 
 
-.classButtonFB{
+.loginCard__borderButtonFB--style{
     box-sizing: border-box;
     position: absolute;
     background-color: transparent;
@@ -318,7 +335,7 @@ body,html{
     border-radius: 6px;
 }
 
-#idFbLogo{
+.loginCard__borderButtonFB--logo{
     position: relative;
     width: auto;
     height: auto;
@@ -326,7 +343,7 @@ body,html{
     top: 485px;
 }
 
-.classButtonTW{
+.loginCard__borderButtonTW--style{
     box-sizing: border-box;
     position: absolute;
     background-color: transparent;
@@ -351,7 +368,7 @@ body,html{
     border-radius: 6px;
 }
 
-#idTwLogo{
+.loginCard__borderButtonTW--logo{
     position: relative;
     width: auto;
     height: auto;
@@ -359,7 +376,7 @@ body,html{
     top: 531px;
 }
 
-.classButtonGG{
+.loginCard__borderButtonGG--style{
     box-sizing: border-box;
     position: absolute;
     background-color: transparent;
@@ -385,7 +402,7 @@ body,html{
     border-radius: 6px;
 }
 
-#idGgLogo{
+.loginCard__borderButtonGG--logo{
     position: relative;
     width: auto;
     height: auto;
