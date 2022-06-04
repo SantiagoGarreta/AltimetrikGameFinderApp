@@ -17,11 +17,11 @@ body{
 
 .header__borderLogo{
 
-    position: absolute;
+    position: fixed;
     width: 293px;
     height: 60px;
-    left: 27px;
-    top: 16px;
+    left: 2.2%;
+    top: 1.7%;
 }
 
 .header__borderLogo--logo{
@@ -36,11 +36,11 @@ body{
 
 .header__borderSearch{
 
-    position: absolute;
+    position: fixed;
     width: 362px;
     height: 47px;
-    left: 539px;
-    top: 23px;
+    left: 40%;
+    top: 2.3%;
 
 }
 
@@ -59,11 +59,11 @@ body{
 
 .header__logOut{
 
-    position: absolute;
+    position: fixed;
     width: 66px;
     height: 39px;
-    left: 1310px;
-    top: 31px;
+    left: 87%;
+    top: 2.7%;
     margin-top: auto;
     margin-bottom: auto;
 
@@ -82,11 +82,12 @@ body{
 
 .header__borderProfile{
 
-    position: absolute;
-    width: 60px;
-    height: 60px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
     left: 1390px;
     top: 20px;
+    margin: auto;
 
 }
 
@@ -98,10 +99,10 @@ body{
     width: 60px;
     height: 60px;
 
-    position: absolute;
-    left: 0%;
+    position: fixed;
+    left: 92%;
     right: 0%;
-    top: 0%;
+    top: 1.7%;
     bottom: 0%;
 
     background: url(http://127.0.0.1:5500/AltimetrikGameFinderApp/Images/ProfilePicture.png), #C4C4C4;
@@ -113,11 +114,10 @@ body{
     
     /*New and trending*/
     
-    position: absolute;
+    position: fixed;
     height: 65px;
     left: 2.78%;
-    right: 69.44%;
-    top: calc(50% - 65px/2 - 420px);
+    top: 8%;
 
     font-family: 'Exo';
     font-style: normal;
@@ -133,11 +133,10 @@ body{
     
     /* Based on player counts and realese date */
 
-    position: absolute;
+    position: fixed;
     height: 24px;
     left: 2.78%;
-    right: 73.12%;
-    top: calc(50% - 24px/2 - 330px);
+    top: 18%;
 
     font-family: 'Exo';
     font-style: normal;
@@ -150,7 +149,7 @@ body{
 }
 
 .nav{
-    position: absolute;
+    position: fixed;
 
     width: 250px;
     height: 600px;
@@ -166,7 +165,7 @@ body{
     height: 27px;
     left: 13.5%;
     right: 93.4%;
-    top: calc(50% - 27px/2 - 263.5px);
+    top: 0%;
 
     font-family: 'Exo';
     font-style: normal;
@@ -185,7 +184,7 @@ color: #5FE19B;
     height: 27px;
     left: 13.5%;
     right: 91.88%;
-    top: calc(50% - 27px/2 - 222.5px);
+    top: 7%;
 
     font-family: 'Exo';
     font-style: normal;
@@ -204,7 +203,7 @@ color: #5FE19B;
     height: 27px;
     left: 13.5%;
     right: 0%;
-    top: calc(50% - 27px/2 - 181.5px);
+    top: 14%;
 
     font-family: 'Exo';
     font-style: normal;
@@ -213,4 +212,152 @@ color: #5FE19B;
     line-height: 27px;
 
     color: #FFFFFF;
+}
+
+.nav__star{
+    position: absolute;
+    left: 11.61%;
+    right: 11.61%;
+    top: 30%;
+    bottom: 12.38%;
+}
+
+.nav__thisWeek{
+    /* This week */
+
+    position: absolute;
+    height: 24px;
+    left: 23%;
+    top: 29.6%;
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #8a8989;
+    text-decoration: none;
+}
+
+.nav__calendar{
+    position: absolute;
+    left: 11.61%;
+    right: 11.61%;
+    top: 37%;
+    bottom: 12.38%;
+}
+
+.nav__thisMonth{
+    /* This Month */
+
+    position: absolute;
+    height: 24px;
+    left: 23%;
+    top: 36.6%;
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #8a8989;
+    text-decoration: none;
+}
+
+.nav__clock{
+    position: absolute;
+    left: 11.61%;
+    right: 11.61%;
+    top: 44%;
+    bottom: 12.38%;
+}
+
+.nav__comingSoon{
+    /* Coming soon */
+
+    position: absolute;
+    height: 24px;
+    left: 23%;
+    top: 43.6%;
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #8a8989;
+    text-decoration: none;
+}
+
+.nav__popular{
+    /* Popular */
+
+    position: absolute;
+    height: 29px;
+    left: 11.61%;
+    right: 91.6%;
+    top: 51%;
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.nav__searches{
+    position: absolute;
+    left: 11.61%;
+    right: 11.61%;
+    top: 64%;
+    bottom: 12.38%;
+}
+
+.nav__lastSearches{
+        /* Last searches */
+
+        position: absolute;
+        height: 24px;
+        left: 23%;
+        top: 63.6%;
+    
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+    
+        color: #8a8989;
+        text-decoration: none;
+}
+
+.nav__likes{
+    position: absolute;
+    left: 11.61%;
+    right: 11.61%;
+    top: 71%;
+    bottom: 12.38%;
+}
+
+.nav__bestOfTheYear{
+    /* Best of the year */
+
+    position: absolute;
+    height: 24px;
+    left: 23%;
+    top: 70.6%;
+        
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+        
+    color: #8a8989;
+    text-decoration: none;
 }
