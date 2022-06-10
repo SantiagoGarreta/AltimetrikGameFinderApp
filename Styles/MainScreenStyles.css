@@ -5,7 +5,7 @@ body{
 .header{
     /* Rectangle */
 
-    position: absolute;
+    position: fixed;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -108,6 +108,17 @@ body{
     background: url(http://127.0.0.1:5500/AltimetrikGameFinderApp/Images/ProfilePicture.png), #C4C4C4;
     border-radius: 50%;
 
+}
+
+.main__mainText{
+    position: fixed;
+
+    width: 100%;
+    height: 150px;
+
+    top: 9.2%;
+
+    background-color: #1a1a1a;
 }
 
 .main__newAndTrending{
@@ -360,4 +371,67 @@ color: #5FE19B;
         
     color: #8a8989;
     text-decoration: none;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    width: 363px;
+    height: 314px;
+    
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #303030;
+    border-radius: 12px;
+    
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container{
+    padding: 2px 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 10%;
+    margin-top: 20%;
+    margin-left: 18%; 
+     
+}
+
+
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main__gameImages{
+    border-radius: 12px;
+    height: 56%;
+}
+
+.main__gameCard--title{
+    
+    margin-top: 10px;
+    margin-left: 5%;
+
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #FFFFFF;
 }
