@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
 }
 
 .header{
@@ -11,8 +16,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0px 25px;
-    
-    height: 80px;
 
     align-items: center;
 }
@@ -45,8 +48,8 @@
 }
 
 .main__mainText{
-    background-color: rgb(29, 27, 27);
     color: white;
+    margin-left: 36px;
 }
 
 
@@ -58,7 +61,6 @@
     left: 2.78%;
     top: 8%;
 
-    font-family: 'Exo';
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -76,7 +78,6 @@
     left: 2.78%;
     top: 18%;
 
-    font-family: 'Exo';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -92,7 +93,7 @@
     width: 250px;
     height: 600px;
 
-    top: 250px;
+    top: 200px;
 }
 
 .nav__home{
@@ -105,7 +106,6 @@
     right: 93.4%;
     top: 0%;
 
-    font-family: 'Exo';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -124,7 +124,6 @@ color: #5FE19B;
     right: 91.88%;
     top: 7%;
 
-    font-family: 'Exo';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -143,7 +142,6 @@ color: #5FE19B;
     right: 0%;
     top: 14%;
 
-    font-family: 'Exo';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -168,8 +166,6 @@ color: #5FE19B;
     left: 23%;
     top: 29.6%;
 
-    font-family: 'Exo';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -194,8 +190,6 @@ color: #5FE19B;
     left: 23%;
     top: 36.6%;
 
-    font-family: 'Exo';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -220,8 +214,6 @@ color: #5FE19B;
     left: 23%;
     top: 43.6%;
 
-    font-family: 'Exo';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -239,8 +231,6 @@ color: #5FE19B;
     right: 91.6%;
     top: 51%;
 
-    font-family: 'Exo';
-    font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 29px;
@@ -264,8 +254,6 @@ color: #5FE19B;
         left: 23%;
         top: 63.6%;
     
-        font-family: 'Exo';
-        font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 24px;
@@ -290,8 +278,6 @@ color: #5FE19B;
     left: 23%;
     top: 70.6%;
         
-    font-family: 'Exo';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -305,7 +291,6 @@ color: #5FE19B;
 
     width: 363px;
     height: 314px;
-    
 
     background-color: #303030;
     color: #303030;
@@ -316,4 +301,8 @@ color: #5FE19B;
 
 .card:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+i{
+    font-size: 20px;
 }
