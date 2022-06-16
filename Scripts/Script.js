@@ -6,9 +6,14 @@ fetch(
     let idContainerCard = document.getElementById("idContainerCard");
 
     let aux = 20;
+    let count = 1;
+    
+
 
     for (let i = 0; i < aux; i++) {
       console.log(data.results[i]);
+      data.results[i].genres.push('santiago');
+      data.results[i].genres.push('santiago');
       idContainerCard.innerHTML += `
 
     <div class="col-4">
@@ -24,7 +29,7 @@ fetch(
             <div class="col-8">
               <p
                 class="main__gameCard--title mt-2"
-                style="font-size: 25px; font-weight: bold"
+                style="font-size: 25px; font-weight: bold; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;"
               >
                 ${data.results[i].name}
               </p>
@@ -37,7 +42,7 @@ fetch(
                   color: rgb(5, 182, 5);
                 "
               >
-                #1
+                #${count}
               </p>
             </div>
           </div>
@@ -57,9 +62,9 @@ fetch(
                 Genres:
               </h5>
             </div>
-            <div class="col-4">
+            <div class="col-4 classGener">
               <h5 style="font-size: 15px">${data.results[i].released}</h5>
-              <h5 style="font-size: 15px">${data.results[i].genres[0].json}</h5>
+              <h5 style="font-size: 15px">${data.results[i].genres[0].name}, ${data.results[i].genres[1].name}, ${data.results[i].genres[2].name}</h5>
             </div>
             <div class="col">
               <div style="margin-left: 23px">
@@ -73,7 +78,10 @@ fetch(
         </div>
         </div>
         `;
-    }
+        
+
+        count++;
+      }
   })
   .catch((e) => console.log(e));
 

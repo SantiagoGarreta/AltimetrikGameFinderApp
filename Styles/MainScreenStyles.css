@@ -2,12 +2,16 @@
 
 
 *{
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Exo', sans-serif;
     font-style: normal;
 }
+
+body{
+    box-sizing: border-box;
+}
+
 
 .header{
     background: linear-gradient(180deg, #5FE19B 0%, #36B972 50%, #0EA152 100%);
@@ -19,6 +23,11 @@
 
     align-items: center;
     position: fixed;
+    z-index: 1;
+}
+
+.top{
+    top: 0;
 }
 
 .logo img{
@@ -50,8 +59,12 @@
 
 .main__mainText{
     color: white;
-    margin-left: 36px;
+    background-color: #151515;
+    margin-left: 28px;
+    width: 100%;
+    margin-top: 48px;
     position: fixed;
+    z-index: 1;
 }
 
 
@@ -297,7 +310,7 @@ color: #5FE19B;
     background-color: #303030;
     color: #303030;
     border-radius: 12px;
-
+    
     margin: 10px;
 }
 
@@ -308,3 +321,11 @@ color: #5FE19B;
 i{
     font-size: 20px;
 }
+
+
+.body {
+    position: relative;
+  
+  }
+  
+  
