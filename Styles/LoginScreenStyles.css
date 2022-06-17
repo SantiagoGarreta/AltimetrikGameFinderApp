@@ -25,8 +25,8 @@ body,html{
     position: absolute;
     width: 462px;
     height: 702px;
-    margin-left: 932px;
-    margin-top: 178px;
+    margin-left: 55%;
+    margin-top: 160px;
     
     mix-blend-mode: overlay;
     backdrop-filter: blur(10px);
@@ -40,8 +40,8 @@ body,html{
     position: absolute;
     width: 462px;
     height: 702px;
-    margin-left: 932px;
-    margin-top: 178px;
+    margin-left: 55%;
+    margin-top: 160px;
 
     border-radius: 12px;
 }
