@@ -63,7 +63,6 @@ fetch(
 
           addActive(x);
         } else if (e.keyCode == 38) {
-
           currentFocus--;
 
           addActive(x);
@@ -103,11 +102,9 @@ fetch(
 
     autocomplete(document.getElementById("idSearch"), gameList);
 
-
     idContainerCard.textContent = "";
 
     for (games of data.results) {
-      console.log(games);
       games.genres.push("");
       games.genres.push("");
 
@@ -184,21 +181,38 @@ fetch(
 
       count++;
     }
-  })
+  });
 
-  /* function filterNames (){
-      
-      for(let x = 0; x <= data.results; x++){
+//funcion que deberia mostrar unicamente los resultados que contengan el contenido del buscador Search.
 
+function myFunction() {
+  var input, filter, section, div, h1, i;
+  input = document.getElementById("idSearch");
+  filter = input.value.toString().toUpperCase();
+  section = document.getElementById("idContainerCard");
+  div = section.getElementsByClassName("card");
+
+  for (i = 0; i < div.length; i++) {
+    h1 = games.name;
+    if (h1) {
+      var palabrasEnFiltro = filter.split(" ");
+      var hallado = 0;
+      for (var filtro of palabrasEnFiltro) {
+        if (h1.innerHTML.toString().toUpperCase().indexOf(filtro) > -1) {
+          hallado++;
+        }
       }
-      if(idSearch.value == x){
 
+      if (hallado === palabrasEnFiltro.length) {
+        div[i].style.display = "";
+      } else {
+        div[i].style.display = "none";
       }
-      idSearch.value = game.fitler();
-      
-    }*/
+    }
+  }
+}
 
-   /* let search;
+/* let search;
 
     function getvalues (){
     search = document.getElementById("idSearch").value;

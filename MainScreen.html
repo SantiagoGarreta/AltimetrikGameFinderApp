@@ -36,15 +36,18 @@
         </div>
         <div class="col-4 mt-2">
           <form autocomplete="off" action="/action_page.php">
-            <div class="autocomplete" style="width: 100%; position: relative; display: inline-block;">
+            <div
+              class="autocomplete"
+              style="width: 100%; position: relative; display: inline-block"
+            >
               <div class="search">
                 <form>
                   <input
                     type="text"
                     placeholder="Search games..."
                     id="idSearch"
+                    onkeyup="myFunction()"
                   />
-                  <button id="idBut">button</button>
                 </form>
               </div>
             </div>
