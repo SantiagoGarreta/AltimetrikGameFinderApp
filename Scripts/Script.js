@@ -10,15 +10,15 @@ fetch(
 
     idContainerCard.textContent = ''; 
 
-    for(const juegos of data.results){
-      console.log(juegos);
-      juegos.genres.push("");
-      juegos.genres.push("");
+    for(const games of data.results){
+      console.log(games);
+      games.genres.push("");
+      games.genres.push("");
       idContainerCard.innerHTML += `
       <div class="col-4">
       <div class="card" style="background-color: #303030; color: white">
           <img
-            src='${juegos.background_image}'
+            src='${games.background_image}'
             alt="Background"
             class="main__gameImages"
             style='height:250px'
@@ -30,7 +30,7 @@ fetch(
                   class="main__gameCard--title mt-2"
                   style="font-size: 25px; font-weight: bold; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;"
                 >
-                  ${juegos.name}
+                  ${games.name}
                 </p>
               </div>
               <div class="col-4 mt-2" style="font-size: 20px">
@@ -56,7 +56,7 @@ fetch(
                 </h5>
               </div>
               <div class="col-4 classGener">
-                  <h5 style="font-size: 15px">${juegos.released}</h5>
+                  <h5 style="font-size: 15px">${games.released}</h5>
                 </div>
               <div class="col">
                 <div style="margin-left: 23px">
@@ -76,7 +76,7 @@ fetch(
                 </h5>
               </div>
               <div class="col classGener" style= " text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">
-              <h5 style="font-size: 14px;">${juegos.genres[0].name}, ${juegos.genres[1].name}, ${juegos.genres[2].name}</h5>
+              <h5 style="font-size: 14px;">${games.genres[0].name}, ${games.genres[1].name}, ${games.genres[2].name}</h5>
                 </div>
             </div>
   
