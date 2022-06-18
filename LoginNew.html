@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="Styles/LoginScreenStyles.css" />
   </head>
   <body>
-    <img class="logo" src="Images/LogoGameFinder.png" alt="Logo Game Finder" />
+    <img class="logo" src="Images/LogoGameFinder.png" alt="Logo Game Finder" style="position: absolute; z-index: 1;" />
 
     <div class="backCard" style="z-index: 2"></div>
 
@@ -62,14 +62,14 @@
       <a href=""><p class="loginCard__forgotPass">Forgot password?</p></a>
 
       <div class="loginCard_button">
-        <button class="loginCard_button--position">Log in</button>
+        <a href="MainScreen.html"><button class="loginCard_button--position">Log in</button></a>
       </div>
 
       <p class="loginCard__notRegist">Not registered yet?</p>
       <a href=""><p class="loginCard__registerNow">Register now</p></a>
 
       <hr class="loginCard__linea1" />
-      <p class="loginCard__or">or</p>
+      <p class="loginCard__or" id="idOrText">or</p>
       <hr class="loginCard__linea2" />
 
       <div class="loginCard__borderButtonFB">
@@ -140,6 +140,7 @@
             src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             class="d-block w-100"
             alt="first slide"
+            style="height: 100%;"
           />
         </div>
         <div class="carousel-item">
@@ -147,6 +148,7 @@
             src="https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1179&q=80"
             class="d-block w-100"
             alt="second slide"
+            style="height: 100%;"
           />
         </div>
         <div class="carousel-item">
@@ -154,6 +156,7 @@
             src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             class="d-block w-100"
             alt="third slide"
+            style="height: 100%;"
           />
         </div>
       </div>
